@@ -1,0 +1,26 @@
+.app-card {
+    background-color: antiquewhite;
+}
+
+.app-card > .app-card__title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.app-card > .app-card__content {
+    font-size: 12px;
+    font-weight: italic;
+}
+
+.app-card--dark {
+    background-color: rgb(48, 48, 48);
+}
+
+.app-card--dark > .app-card__title, .app-card--dark > .app-card__content {
+    color: whitesmoke;
+}
+
+.app-card__content--large {
+    font-weight: bold;
+}
+

@@ -1,0 +1,21 @@
+div {
+    color: purple;
+}
+
+.app-text {
+    color: red;
+}
+
+.app-text--pink {
+    color: pink;
+}
+
+#app-text--blue {
+    color: blue;
+}
+
+.app-text--orange {
+    color: orange!important;
+}
+
+

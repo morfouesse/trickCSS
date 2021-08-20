@@ -1,0 +1,19 @@
+
+.app-demo-responsive {
+    width: 100%;
+}
+
+.app-demo-responsive .app-demo-responsive__item {
+    display: inline-block;
+    width: var(--square-larger);
+    height: var(--square-larger);
+    background-color: var(--main-color);
+}
+
+.app-demo-responsive .app-demo-responsive__item--success {
+    background-color: var(--success-color);
+}
+
+.app-demo-responsive .app-demo-responsive__item--error {
+    background-color: var(--error-color);
+}

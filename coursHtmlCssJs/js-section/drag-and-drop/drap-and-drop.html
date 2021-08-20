@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="drag-and-drop.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../js-section.html">Retour</a>
+    </nav>
+    <h1>Drag and Drop</h1>
+
+    <div class="app-text-bloc">
+        <div id="bloc1" class="app-text-bloc__item">
+            Bloc1
+        </div>
+        <div id="bloc2" class="app-text-bloc__item" draggable="true" ondragstart="drag(event)">
+            Bloc2
+        </div>
+        <div id="bloc3" class="app-text-bloc__item" draggable="true" ondragstart="drag(event)">
+            Bloc3
+        </div>
+        <div id="bloc4" class="app-text-bloc__item" draggable="true" ondragstart="drag(event)">
+            Bloc4
+        </div>
+    </div>
+
+    <div class="app-drop-bloc" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+    </div>
+
+    <script src="drag-and-drop.js"></script>
+</body>
+
+</html>

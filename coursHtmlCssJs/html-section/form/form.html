@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <nav>
+        <a href="../html-section.html">Retour</a>
+    </nav>
+    <h1>Formulaire</h1>
+
+    <div>
+        <h2>Login</h2>
+        <form name="loginForm" onsubmit="return handleSubmitLoginForm()">
+            <div>
+                <label for="username">Username :</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+      
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password" maxlength="10" required>
+                <span id="errorPassword"></span>
+            </div>
+      
+            <button type="submit">Submit</button>
+        <form>
+    </div>
+    <div>
+        
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>

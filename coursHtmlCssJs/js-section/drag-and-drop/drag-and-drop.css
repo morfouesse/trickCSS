@@ -1,0 +1,21 @@
+
+.app-text-bloc {
+    width: 100%;
+}
+
+.app-text-bloc .app-text-bloc__item {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #0056b8;
+}
+
+.app-drop-bloc {
+    width: 200px;
+    height: 200px;
+    border: 2px dotted black;
+}
+
+/* .app-drop-bloc:hover {
+    background-color: grey;
+} */

@@ -1,0 +1,32 @@
+.app-container {
+    background-color: crimson;
+    margin-bottom: 10px;
+}
+
+.app-container--padding {
+    padding: 20px;
+}
+
+.app-container--margin {
+    background-color: darkgreen;
+    margin: 10px;
+}
+
+.app-container__padding {
+    background-color: dodgerblue;
+    padding: 40px 10px 20px 30px; /* Même chose*
+    /* padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 10px; */
+}
+
+.app-correct-container {
+    background-color: midnightblue;
+    padding: 10px;
+    text-align: justify;
+}
+
+.app-correct-container__child {
+    color: #ffffff;
+}

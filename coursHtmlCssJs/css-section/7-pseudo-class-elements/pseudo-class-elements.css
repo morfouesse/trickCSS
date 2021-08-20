@@ -1,0 +1,32 @@
+.app-text-class:hover {
+    color: green;
+}
+
+.app-text-element::first-line {
+    color: blue;
+}
+
+.app-text-element::first-letter {
+    color: red;
+}
+
+.app-button {
+    width: 100px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+.app-button:hover {
+    background-color: #747474;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.app-button:active {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}

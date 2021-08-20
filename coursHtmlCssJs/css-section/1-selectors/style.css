@@ -1,0 +1,29 @@
+/* Element HTML */
+p, span {
+    background-color: crimson;
+}
+
+/* Une classe */
+.app-test-class {
+    background-color: cyan;
+}
+
+/* Un ID Possible mais devrait être
+utilisé le moins possible avec du CSS */
+#app-test-id {
+    background-color: darkmagenta;
+}
+
+/* Niveau hiérarchique direct juste en dessous de l'élément 
+qui possède la class app-span-color*/
+.app-span-color>span {
+    color: darkblue;
+}
+
+/* CONTAINER */
+
+/*************************************/
+/************ BUTTON *****************/
+/*************************************/
+
+/* CARD */

@@ -1,0 +1,11 @@
+.app-demo-responsive-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.app-demo-responsive-wrapper .app-demo-responsive {
+    display: inline-block;
+    width: 24%;
+    height: 50px;
+    background-color: red;
+}

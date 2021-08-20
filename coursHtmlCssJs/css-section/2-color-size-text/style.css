@@ -1,0 +1,37 @@
+
+.app-container-color {
+    width: 250px;
+    height: 250px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.app-container-color--material {
+    min-width: 500px;
+    height: 250px;
+    background-color: #388e3c;
+    color: #ffffff;
+}
+
+.app-container-color--size {
+    width: 500px;
+    height: 250px;
+    background-color: #b80028;
+    color: #ffffff;
+}
+
+.app-container-color--size-two {
+    width: 50%;
+    height: 250px;
+    background-color: #b80028;
+    color: #ffffff;
+}
+
+.app-text {
+	color : blue;
+	font-size : 20px;
+	font-family: 'Zen Dots', cursive;
+	font-weight : bold;
+	text-align: center;
+}
+

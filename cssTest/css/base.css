@@ -1,0 +1,9 @@
+body{
+    background-image: url("../img/gabriel-lenca-Hf4xj7Tg_AE-unsplash.jpg");
+    color: white;
+}
+
+.align{
+    display: flex;
+}
+
